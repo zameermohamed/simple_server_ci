@@ -22,7 +22,7 @@ jobs:
 
       # This step installs pip and our dependencies
       - name: Install dependencies
-        run: | # Note that there's no reference here — just commands to run
+        run: | # Note that there's no reference here — just command to run
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
